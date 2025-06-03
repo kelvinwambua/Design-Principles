@@ -1,4 +1,5 @@
 import solid.dip.DIPDemo;
+import solid.is.OrderInterface;
 import solid.lsp.LSPDemo;
 import solid.sr.SRDemo;
 
@@ -14,7 +15,13 @@ public class Main {
         System.out.println("\n2. LISKOV SUBSTITUTION PRINCIPLE");
         LSPDemo.run();
         //Single Responsibility Principle
-        System.out.println("\n2. SINGLE RESPONSIBILITY PRINCIPLE");
+        System.out.println("\n3. SINGLE RESPONSIBILITY PRINCIPLE");
         SRDemo.run();
+        //Interface Segregation
+        System.out.println("\n4. INTERFACE SEGREGATION");
+        OrderInterface.OnlineCustomer obj1 = new OrderInterface.OnlineCustomer("Jane");
+        System.out.println(obj1.name);
+        System.out.println(obj1.placeOrder());
+
     }
 }
