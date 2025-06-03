@@ -19,4 +19,19 @@ Constructor:
 java
 public goodPayment(String name, int id, double amount)
 
+# BadPayments Class – SRP Violation Example (Java)
+
+This project demonstrates how *not* to structure a class using the *Single Responsibility Principle(SRP)*.
+
+The badPaymentS class takes on *multiple unrelated responsibilities*, making it:
+
+- Hard to maintain.
+- Hard to test.
+- Prone to bugs when changes are made.
+
+*Responsibilities Mixed in One Class:*
+
+It does hold payment data which is good,
+but when it comes to applying discounts and saving database it takes up more responsibilities.
+
 
