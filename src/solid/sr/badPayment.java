@@ -1,3 +1,5 @@
+package solid.sr;
+
 //this class represents a bad payment entity that violates the SRP principle
 //implements various other logic; handles multiple responsibilities
 public class badPayment{

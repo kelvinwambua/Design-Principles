@@ -1,10 +1,10 @@
 # Dependency Inversion Principle
 
-## What's the deal?
+## What is the Dependency Inversion Principle
 
 Basically, don't hardcode stuff. If your class needs something, request for it instead of creating it in the class.
 
-## Bad Example 👎
+## Bad Example
 
 ```java
 public class OrderManager {

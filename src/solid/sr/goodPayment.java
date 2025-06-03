@@ -1,3 +1,5 @@
+package solid.sr;
+
 //this class represents a good payment entity that follows the SRP principle
 //only holds data and provides basic getters and setters
 public class goodPayment {
