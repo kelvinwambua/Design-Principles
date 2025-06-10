@@ -7,7 +7,7 @@ public class goodPayment {
     private int id;
     private double amount;
 
-    public goodPayment(String name, int id, double baseSalary) {
+    public goodPayment(String name, int id, double amount) {
         this.method = name;
         this.id = id;
         this.amount = amount;
